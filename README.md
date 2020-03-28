@@ -17,3 +17,10 @@ Then there will be a script to deal with clearing and settlement.
 例如，一个停车场道闸设备。在有车出去的时候，识别车辆信息和收费信息。
 
 然后发送交易到链上一个合约，直接以token的方式做清分。
+
+### 相关项目
+
+[ckb-cli for arm](https://github.com/rink1969/ckb-cli/tree/iot)
+
+[ckb for aarch64](https://github.com/rink1969/ckb/tree/aarch64)
+
