@@ -24,3 +24,8 @@ Then there will be a script to deal with clearing and settlement.
 
 [ckb for aarch64](https://github.com/rink1969/ckb/tree/aarch64)
 
+### 吐槽
+
+1. ckb-cli基本把ckb都包含进来，编译ckb-cli比ckb还复杂。
+2. Rust对glibc版本要求太高了。
+3. 自动清分合约，好像在ckb实现不了？solidity可以在fallback函数里实现，有人向这个合约转账的时候，自动将金额分给另外几个账户。
